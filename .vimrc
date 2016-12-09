@@ -1,0 +1,2 @@
+colorscheme murphy
+syntax on

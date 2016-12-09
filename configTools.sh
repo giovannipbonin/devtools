@@ -1,6 +1,5 @@
 # This is where the magic happens (runs everything and wraps it up)
 
-export PYTHONPATH=$HOME/local/lib/python2.7/site-packages                   
 
 # Vim Config
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -18,4 +17,5 @@ git clone https://github.com/majutsushi/tagbar
 git clone https://github.com/godlygeek/tabular.git
 git clone https://github.com/ervandew/supertab
 git clone https://github.com/honza/vim-snippets
+git clone https://github.com/nanotech/jellybeans.vim
 

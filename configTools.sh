@@ -19,3 +19,4 @@ git clone https://github.com/ervandew/supertab
 git clone https://github.com/honza/vim-snippets
 git clone https://github.com/nanotech/jellybeans.vim
 git clone https://github.com/wkentaro/conque.vim
+git clone https://github.com/vim-scripts/quickrun.vim    

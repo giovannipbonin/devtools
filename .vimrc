@@ -1,7 +1,10 @@
 execute pathogen#infect()
 
 " Tagbar
-nmap <F8> :TagbarToggle<CR>
+nmap <F6> :TagbarToggle<CR>
+
+" QuickRun
+nmap <F5> :QuickRun<CR>
 
 " Syntatic
 Helptags

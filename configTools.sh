@@ -27,8 +27,5 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 open solarized.itermcolors
 ln .zshrc ~/.zshrc
 ln .bash_profile ~/.bash_profile
-
-
-
-
-
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git  

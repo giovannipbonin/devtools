@@ -18,15 +18,16 @@ git clone https://github.com/godlygeek/tabular.git
 git clone https://github.com/ervandew/supertab
 git clone https://github.com/honza/vim-snippets
 git clone https://github.com/nanotech/jellybeans.vim
-git clone https://github.com/wkentaro/conque.vim
 git clone https://github.com/vim-scripts/quickrun.vim    
 
 
-# Git dotfiles
-cd ~/devtools
-ln git-completion.bash ~/git-completion.bash
-ln git-prompt.sh ~/git-prompt.sh
 
-# Activate .bashrc
-ln .bashrc ~/.bashrc
-exec bash
+# Shell additions
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+open solarized.itermcolors
+cp .zshrc ~/.zshrc
+
+
+
+
+

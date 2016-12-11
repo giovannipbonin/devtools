@@ -20,3 +20,14 @@ git clone https://github.com/honza/vim-snippets
 git clone https://github.com/nanotech/jellybeans.vim
 git clone https://github.com/wkentaro/conque.vim
 git clone https://github.com/vim-scripts/quickrun.vim    
+
+
+
+# Git dotfiles
+cd -
+ln git-completion.bash ~/git-completion.bash
+ln git-prompt.sh ~/git-prompt.sh
+
+# Activate .bashrc
+ln .bashrc ~/.bashrc
+exec bash

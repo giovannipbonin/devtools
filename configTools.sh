@@ -22,9 +22,8 @@ git clone https://github.com/wkentaro/conque.vim
 git clone https://github.com/vim-scripts/quickrun.vim    
 
 
-
 # Git dotfiles
-cd -
+cd ~/devtools
 ln git-completion.bash ~/git-completion.bash
 ln git-prompt.sh ~/git-prompt.sh
 

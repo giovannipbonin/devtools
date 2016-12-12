@@ -26,6 +26,7 @@ git clone https://github.com/vim-scripts/quickrun.vim
 cd ~/devtools
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 open solarized.itermcolors
+open menloFont.ttf
 git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git  
 cd ~/devtools

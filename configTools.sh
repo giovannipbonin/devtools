@@ -23,6 +23,7 @@ git clone https://github.com/vim-scripts/quickrun.vim
 
 
 # Shell additions
+cd ~/devtools
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 open solarized.itermcolors
 ln .zshrc ~/.zshrc

@@ -20,7 +20,7 @@ set statusline+=%*
 
 " Quickrun for html
 let g:quickrun_config = {}
-let g:quickrun_config.html = {'command' : 'open -a "Google Chrome"'}
+let g:quickrun_config.html = {'command' : "open"}
 
 
 

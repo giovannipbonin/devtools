@@ -3,7 +3,6 @@
 
 # Vim Config
 ln .vimrc ~/.vimrc
-ln .screenrc ~/.screenrc
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
@@ -35,6 +34,7 @@ open menloFont.ttf
 git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git  
 cd ~/devtools
+rm ~/.zshrc
 ln .zshrc ~/.zshrc
 ln .bash_profile ~/.bash_profile
 source ~/.bash_profile

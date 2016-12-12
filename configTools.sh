@@ -19,7 +19,11 @@ git clone https://github.com/ervandew/supertab
 git clone https://github.com/honza/vim-snippets
 git clone https://github.com/nanotech/jellybeans.vim
 git clone https://github.com/vim-scripts/quickrun.vim    
+git clone https://github.com/wincent/command-t
 
+cd ~/.vim/bundle/command-t/ruby/command-t
+ruby extconf.rb
+make
 
 
 # Shell additions

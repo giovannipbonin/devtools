@@ -1,7 +1,7 @@
 execute pathogen#infect()
 
 " Tagbar
-nmap <F6> :TagbarToggle<CR>
+nmap <F6> :CommandT<CR>
 
 " QuickRun
 nmap <F5> :QuickRun<CR>

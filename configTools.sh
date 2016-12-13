@@ -31,10 +31,12 @@ cd ~/devtools
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 open solarized.itermcolors
 open menloFont.ttf
-git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git  
+cd $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone git://github.com/zsh-users/zsh-autosuggestions 
+cd ~/.oh-my-zsh 
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git  
 cd ~/devtools
-rm ~/.zshrc
+rm ~/.zshrc ~/.bash_profile
 ln .zshrc ~/.zshrc
 ln .bash_profile ~/.bash_profile
 source ~/.bash_profile
